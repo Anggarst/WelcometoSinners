@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinners</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <header class="text-center p-5 bg-white shadow-md">
+        <h1 class="text-2xl font-bold">SINNERS COIL</h1>
+    </header>
+    
+    <section class="relative">
+        <img src="Gambar/LOGO SINNERS.png" alt="SINNERS" class="w-full h-72 object-cover">
+        <div class="absolute inset-0 flex flex-col items-center justify-center text-white text-center bg-black bg-opacity-40">
+            <h2 class="text-3xl font-bold">Mletek in dulu ga sih</h2>
+            <p class="mt-2">We'r all Sinners</p>
+            <button class="mt-4 bg-red-600 px-6 py-2 text-white rounded-lg">Shop Now</button>
+        </div>
+    </section>
+    
+    <section class="text-center py-10">
+        <h3 class="text-xl font-bold bg-red-600 text-white py-2">CEK PRODUK KAMI</h3>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 p-6">
+            <div class="bg-white p-4 shadow-md">
+                <img src="Gambar/RDA.jpg" alt="0.18 Ohm">
+                <h4 class="font-bold mt-2">Baby Alien 3mm</h4>
+                <p>20.000</p>
+                <button class="mt-2 bg-black text-white px-4 py-1">View Product</button>
+            </div>
+            <div class="bg-white p-4 shadow-md">
+                <img src="Gambar/Fused Hyper.jpg" alt="0.3 Ohm">
+                <h4 class="font-bold mt-2">Hyper Fused Clapton 2.5mm</h4>
+                <p>30.000</p>
+                <button class="mt-2 bg-black text-white px-4 py-1">View Product</button>
+            </div>
+            <div class="bg-white p-4 shadow-md">
+                <img src="Gambar/Fused biasa.jpg" alt="0.21">
+                <h4 class="font-bold mt-2">Common Fused Clapton 2.5mm</h4>
+                <p>20.000</p>
+                <button class="mt-2 bg-black text-white px-4 py-1">View Product</button>
+            </div>
+            <div class="bg-white p-4 shadow-md">
+                <img src="Gambar/RBA.jpg" alt="0.28 Ohm">
+                <h4 class="font-bold mt-2">Baby Alien 2.5mm</h4>
+                <p>25.000</p>
+                <button class="mt-2 bg-black text-white px-4 py-1">View Product</button>
+            </div>
+        </div>
+        <button class="mt-4 bg-gray-800 text-white px-6 py-2 rounded-lg">Check out the full collection</button>
+    </section>
+</body>
+</html>
